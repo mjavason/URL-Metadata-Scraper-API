@@ -8,5 +8,3 @@ export function SuccessMsgResponse(message = MESSAGES.SUCCESSFUL) {
 export function SuccessResponse(data: any, message = MESSAGES.SUCCESSFUL) {
   return { status: HttpStatus.OK, message, data };
 }
-
-HttpStatus.CREATED;

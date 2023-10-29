@@ -1,3 +1,4 @@
+import { HttpStatus } from '@nestjs/common';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsNumber, IsString } from 'class-validator';
 
@@ -5,7 +6,7 @@ export class ResponseDto<T> {
   @ApiProperty()
   @IsNotEmpty()
   @IsNumber()
-  status: 200;
+  status: HttpStatus.OK;
 
   @ApiProperty()
   @IsNotEmpty()

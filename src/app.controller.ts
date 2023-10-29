@@ -3,7 +3,6 @@ import { AppService } from './app.service';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { ResponseDto } from './dto';
 import { SuccessMsgResponse } from './helpers/response.helper';
-import { ResponseData } from './interfaces/response.interface';
 
 @Controller()
 @ApiResponse({
