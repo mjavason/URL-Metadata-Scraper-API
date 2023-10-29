@@ -40,6 +40,14 @@ http://localhost:3000/scraper/scrape?url=https://example.com
 
 This will return JSON data containing the title, description, and image URL for the specified URL.
 
+## Swagger Documentation
+
+For detailed documentation on how to use the URL Metadata Scraper API and its endpoints, you can access the Swagger documentation at:
+
+[Swagger Documentation](https://url-metadata-scraper.onrender.com/docs)
+
+The Swagger documentation provides information on available endpoints, request parameters, and response structures, making it easier to interact with the API.
+
 ## Contributing
 
 Contributions to the URL Metadata Scraper API are welcome! If you'd like to contribute:
